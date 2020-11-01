@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+   
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+    
+      <a href="{{ url_for('home') }}" class="navbar-brand cr">
+      <img class="logoo" src="{{ url_for('static', filename='logoo.png')}}">
+      College Roots</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"></span>    
+      </button>
+      <div class="collapse navbar-collapse" id="myMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="{{ url_for('option') }}" class="nav-link option">Home</a></li>
+        <li class="nav-item"><a href="{{ url_for('opentoall') }}" class="nav-link option">Open-to-all</a></li> 
+             
+        
+      </ul>
+      </div>
+   </nav>
+
+    <!-- Page Header -->
+    
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 col-sm-12 mx-auto light">
+            <div class="post-heading">
+              <h1 class="orange">{{ post.title }}</h1>
+              <h2 class="subheading" style="color:white">{{ post.subtitle }}</h2>
+              <span class="meta" style="color:white">Posted by
+                {{ post.author }}
+                on {{ post.date_posted.strftime('%B %d, %Y') }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 col-sm-12 mx-auto" style="color:white">
+            <p class="light" style="color:white">{{ post.content|safe }}</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    
+
+    <!-- Footer -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

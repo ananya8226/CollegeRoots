@@ -1,0 +1,357 @@
+body{
+	margin:0;
+	padding:0;
+    font-family: sans-serif;
+    background-color: black;  
+}
+.sectt{
+	box-shadow:0 0 4px 0 rgb(255,140,0);
+	color: white;
+	align-content: center;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 35%;
+	
+}
+
+.secttt{
+	box-shadow:0 0 4px 0 rgb(255,140,0);
+	color: white;
+	align-content: center;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+.light{
+	color: white;
+}
+
+.orange{
+	color: #FF4500;
+}
+
+.about{
+	padding: 10px;
+	padding-top: 20px;
+	color: white;
+    text-align: center;
+}
+
+.lorem{
+color:white;
+}
+
+.sect{
+   
+   box-shadow:0 0 4px 0 rgb(255,140,0);
+	color: white;
+	width: 50%;
+	height:310px;
+	
+	align-content: center;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	
+	margin-left: 140px;
+}
+
+
+.sign-up{
+	width:420px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	box-shadow:0 0 4px 0 rgb(255,140,0);
+	background:#fff;
+	padding:20px;
+	margin:8% auto 0;
+	text-align: center;
+	
+}
+
+.sign-in{
+	width:420px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	background:#fff;
+	padding:20px;
+	margin:8% auto 0;
+	text-align: center;
+	
+}
+
+.sign-up h1{
+	 color:  #FF4500;
+	 margin-bottom: 8px;
+
+}
+
+.sign-in h1{
+	 color:  #FF4500;
+	 margin-bottom: 8px;
+
+}
+
+.input-box{
+	border-radius: 20px;
+	padding:10px;
+	margin:10px -10px;
+	width:100%;
+    border:1px solid #999;
+    outline:none;
+}
+
+button{
+color:#fff;
+width:100%;
+padding:10px;
+border-radius:20px;
+font-size:15px;
+margin:10px 0;
+border:none;
+outline: none;
+cursor: pointer;
+}
+
+.text{
+padding-top:10px;
+opacity: 1;
+}
+
+.button1{
+   
+   color:white;
+   background-color: black;
+   width:40%;
+   margin-top: 0px;
+
+}
+
+.sign-btn{
+	background-color: #FF4500;
+}
+
+.google-btn{
+    background-color:#FF8C00;
+}
+
+a{
+	text-decoration: none;
+	padding:10px;	
+}
+
+.option{
+   margin-right: 10px;
+   font-size: 20px;
+   font-family: 'Ubuntu', sans-serif;
+   color:#FF4500;
+
+}
+
+.cr{
+	font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color:black;
+
+}
+
+.abc{
+	height:378px;
+}
+
+.hrline1{
+	background-color: #FF4500;
+	margin-top:15px;
+   width:100%;
+
+}
+
+
+.hrline{
+	background-color:white;
+	margin-top:4px;
+	width:30%;
+
+}
+
+.or{
+	background:#fff;
+	width: 30px;
+	margin:-19px auto 10px;
+}
+
+.user{
+	width:80px;
+	border-radius:50%;
+    margin-top:-70px;
+    height:80px; 
+}
+
+ 
+.logoo{
+
+  width:80px;
+  height:80px; 
+  margin-top:0px;
+
+}
+
+.conti{
+
+  width
+
+}
+
+
+
+.mainimg{
+
+	margin-top:25px;
+	height:400px;
+	width:85%;
+	margin-left: 35px;
+}
+
+.block1{
+
+	background-color:  #ff751a;
+	height:470px;
+}
+
+.block4{
+  background-color:  #ff751a;
+  padding-bottom: 30px;
+
+}
+
+.smallblock{
+   padding: 20px;
+   background-color:  #ff751a;
+   color:black;
+   font-weight: 0.9;
+   align-content: center;
+   font-size: 20px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.block2{
+
+margin-bottom: 30px;
+
+}
+
+.tagline{
+
+	font-family: 'Staatliches', cursive;
+    font-size: 63px;
+    color: white;
+}
+
+.lnk{
+	color:black;
+}
+
+.link{
+	color: black;
+	font-family: 'Staatliches', cursive;
+	font-size: 23px;
+}
+
+.description{
+	color:black;
+}
+
+  
+@media (max-width: 767px) and (min-width: 500px){
+   .col-sm-12 {
+    float: left;
+    
+    width: 100%;
+    
+  }
+  .col-sm-0{
+  	width: 0px;
+  }
+
+  .col-lg-8{
+  	width: 80%;
+  }
+  .col-lg-12 {
+   
+    
+    width: 100%;
+    
+  }
+  .block2{
+  	background-color: black;
+  	padding-bottom: 15px;
+  }
+ 
+}
+
+
+
+@media (max-width: 499px)
+{
+	.col-sm-12 {
+    float: left;
+    
+    width: 100%;
+    
+  }
+
+  .col-lg-12 {
+    
+    
+    width: 100%;
+    
+  }
+
+  .col-lg-8{
+  	width: 80%;
+  }
+
+  .col-sm-0{
+  	width: 0px;
+  }
+
+   .block2{
+  	background-color: black;
+  	padding-bottom: 15px;
+  }
+ 
+}
+
+
+
+.categories{
+	background-color: #FF4500;
+	background-image: none;
+    color:black;
+}
+
+
+.categories1{
+	background-color: #FF4500;
+	color:black;
+	height:40px;
+}
+
+
+.b1{
+	margin-top: -35px;
+	margin-left: 50px;
+
+}
+
+
+.b2{
+
+	position: relative;
+	float:right;
+	margin-right: 50px;
+	margin-top: -35px;
+}

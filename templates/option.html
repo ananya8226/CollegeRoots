@@ -1,0 +1,105 @@
+<!Doctype html>
+<html>
+<head>
+
+	<title>College Roots</title>
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+   
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark ">
+		
+      <a href="{{ url_for('home') }}" class="navbar-brand cr">
+      <img class="logoo" src="{{ url_for('static', filename='logoo.png')}}">
+      College Roots</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"></span>    
+      </button>
+      <div class="collapse navbar-collapse" id="myMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="{{ url_for('option') }}" class="nav-link option">Home</a></li> 
+         
+        <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link option">Logout</a></li>
+      </ul>
+      </div>
+   </nav>
+
+
+<div class="smallblock"><h3 style="text-align: center;">Welcome To College Roots !</h3></div>
+
+<div class="block2 col-sm-12" id="about">
+	<div class="about col-sm-12"><h1>Please Select</h1></div>
+  <hr class="hrline col-sm-12">
+	<p class="lorem"> </p>
+	<div class="container">
+  <div class="row">
+    
+   	 <div class="col-lg-6 col-sm-12">
+     <div class="secttt">
+     <a href="/open-to-all">	<h2 class="orange">Open-To-All</h2></a>	
+     <p>All the notes, books, pdfs, events, contests, seminars, workshops, hackathons of all registered colleges will be present in this section.
+      </p>
+     </div>
+   	 </div>
+
+     <div class="col-lg-6 col-sm-12">
+     <div class="secttt">
+     <a href="/college-specific"> <h2 class="orange"> College-Specific</h2></a>	
+     <p>Campus guide, routemap, lectures, details of libraries, cafeterias, mess, hostels, hospitals, bus and cab services, stationary shops etc.
+      </p>
+     </div>
+   	 </div>
+
+</div>  
+</div>
+</div>
+
+<div class="block4">
+	<div class="container">
+	  <div class="row">
+        <div class="col-lg-6 col-sm-12">
+        	<p class="cr"><br>College Roots</p>
+        	<p class="description">'COLLEGE ROOTS' is a single online platform including all the necessary information about Colleges/Universities. Students are generally worried about notes, books, PDFs, links and other updates regarding academics which they tend to miss generally due to busy schedule and inefficient methods of communication. Generally freshers face the problem of not being updated with the on-going stuff. Using this app, users can upload information and all students get notified as soon as a notice is published. <p>
+        </div>
+        <div class="col-lg-2 col-sm-12">
+        	<p class="link"><br><br>Useful links</p>
+        	<p>
+        		    <a href="/home" class="lnk">Home</a><br><br>
+                <a href="#about" class="lnk">About Us</a> <br> <br>    
+                <a href="/login" class="lnk">Login</a><br><br>
+                <a href="/register" class="lnk">Register</a><br><br>
+        	</p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+        	<p class="link"><br><br>Contact Us</p>
+        	<p class="lnk">Phone: 6392569656<br><br>
+        	Email: <a class="lnk" href="ananya8226@gmail.com">ananya8226@gmail.com</a></p>
+		</div>
+	</div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</body>
+</html>
