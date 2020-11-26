@@ -28,6 +28,9 @@ It has two broad categories :
 
 The website review video can be found [here](https://youtu.be/XEMAhwRDK9s).
 
+The hosted roject can be viewed [here](http://ananya8226.pythonanywhere.com/).
+
+
 #### NOTE :
 
 While adding info about your college in the college specific section, please write college name as "MMMUT" since other colleges haven't been registered yet. If you add any other name, your post won't be uploaded. Although, in the Open to All section, you can upload your post under any name.  
