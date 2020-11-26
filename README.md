@@ -28,7 +28,7 @@ It has two broad categories :
 
 The website review video can be found [here](https://youtu.be/XEMAhwRDK9s).
 
-The hosted roject can be viewed [here](http://ananya8226.pythonanywhere.com/).
+The hosted project can be viewed [here](http://ananya8226.pythonanywhere.com/).
 
 
 #### NOTE :
